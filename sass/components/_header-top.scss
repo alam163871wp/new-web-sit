@@ -1,0 +1,18 @@
+@import '../variables/bg-color';
+@import '../variables/text-color';
+
+#header_top {
+    padding: 50px 0;
+    background-color: $bg-primary;
+    text-align: center;
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            font-size: 30px;
+            color: $text-regular;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@mixin makeRound ($s,$bg){
+height: $s;
+width: $s;
+border-radius: 50%;
+background-color: $bg;
+}

@@ -1,0 +1,19 @@
+@import '../mixins/mixins';
+#banner{
+    padding: 150px 0;
+    background: $bg-primary;
+    .container{
+        position: relative;
+    }
+    h1{
+        color: $bg-secondary;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    .shape{
+        @include makeRound(150px ,$bg-secondary);
+        position: absolute;
+        bottom: 50px;
+        right: 100px;
+    }
+}

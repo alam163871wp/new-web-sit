@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
+
+#header_top {
+  padding: 50px 0;
+  background-color: darkBlue;
+  text-align: center;
+}
+#header_top .main {
+  display: flex;
+  justify-content: space-between;
+}
+#header_top .main a {
+  font-size: 30px;
+  color: #fff;
+}
+
+#main_menu {
+  background-color: rgb(219, 140, 13);
+  padding: 30px 0;
+}
+#main_menu .main {
+  display: flex;
+}
+#main_menu .main .logo {
+  width: 25%;
+}
+#main_menu .main .logo a {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: darkBlue;
+  text-transform: uppercase;
+}
+#main_menu .main .menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 75%;
+}
+#main_menu .main .menu ul {
+  display: flex;
+}
+#main_menu .main .menu ul a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+  transition: 0.4s;
+}
+#main_menu .main .menu ul a:hover {
+  color: darkBlue;
+}
+
+#banner {
+  padding: 150px 0;
+  background: darkBlue;
+}
+#banner .container {
+  position: relative;
+}
+#banner h1 {
+  color: rgb(219, 140, 13);
+  font-size: 50px;
+  text-transform: uppercase;
+}
+#banner .shape {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(219, 140, 13);
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}/*# sourceMappingURL=style.css.map */
